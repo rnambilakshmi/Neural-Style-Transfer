@@ -9,6 +9,17 @@ Neural style transfer is an optimization technique used to take three images, a 
 2. In the same directory save the content and style images of interest 
 3. Correspondingly change style_pic and content_pic in the notebook
 
+## Example
+### Input
+|**Content Image**|**Style Image**|
+|:--:|:--:|
+|![github-small](japanese_garden.jpg)|![github-small](picasso_selfportrait.jpg)|
+
+### Output
+|**10 epochs**|**1000 epochs**|
+|:--:|:--:|
+|![](https://raw.githubusercontent.com/rnambilakshmi/Neural-Style-Transfer/master/output_image_10.png)|![](output_image_1000.png)|
+
 
 ## Resources
 [\[1\] A Neural Algorithm of Artistic Style](https://arxiv.org/abs/1508.06576) 
